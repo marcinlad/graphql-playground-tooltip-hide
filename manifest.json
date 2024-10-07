@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "GraphQL Playground Tooltip Hide",
+  "version": "1.0",
+  "description": "Hides the GraphQL Playground tooltip",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
